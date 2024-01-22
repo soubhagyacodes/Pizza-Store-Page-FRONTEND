@@ -167,3 +167,74 @@
 .offer-img:hover{
     border: 1px solid black;
 }
+
+/* SECTION 2 ENDS HERE */
+
+/* SECTION 3 STARTS */
+
+.heading{
+    font-size: 37px;
+}
+
+
+
+.section{
+    height: 100vh;
+    padding: 0px 95px;
+}
+
+.section3{
+    height: auto;
+    background-color: #e73e444e;
+    padding: 50px 95px;
+}
+
+.pizza-box{
+    width: 400px;
+    height: 567px;
+    background-color: white;
+    box-shadow: 2px 2px 9px -4px black;
+}
+
+.pizza-boxes{
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+    row-gap: 40px;
+    margin: 40px 0px 0px 50px;
+}
+
+.pizza-best{
+    width: 100%;
+    height: 62%;
+}
+
+.box-content{
+    padding: 10px
+}
+
+.box-heading{
+    font-size: 30px;
+}
+
+.box-desc{
+    margin-top: 20px;
+    height: 57.6px;
+}
+
+.box-btn{
+    border: none;
+    background-color: #e73e43;
+    color: white;
+    width: 120px;
+    height: 43px;
+    border-radius: 18px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.box-btn:hover{
+    border: 1px solid #e73e43;
+    background-color: white;
+    color: #e73e43;
+    cursor: pointer;
+}
