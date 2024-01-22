@@ -191,7 +191,7 @@
 
 .pizza-box{
     width: 400px;
-    height: 567px;
+    height: 620px;
     background-color: white;
     box-shadow: 2px 2px 9px -4px black;
 }
@@ -205,7 +205,7 @@
 
 .pizza-best{
     width: 100%;
-    height: 62%;
+    height: 400px;
 }
 
 .box-content{
@@ -238,3 +238,65 @@
     color: #e73e43;
     cursor: pointer;
 }
+
+.section4{
+    background-color: #e73e43;
+    height: 100vh;
+} 
+
+.quality{
+    height: 270px;
+    background-image: url(Images/Merged\ BG.jpg);
+    background-size: cover;
+}
+
+.bgtint{
+    background-color: rgba(0, 0, 0, 0.350);
+    background-blend-mode: multiply;
+}
+
+.white{
+    background-color: white;
+}
+
+.whitetxt{
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.white-design{
+    margin-left: 47%;
+}
+
+.quality-box{
+    width: 86%;
+    height: 90%;
+    background-color: white;
+    margin: 40px 104px;
+    display: flex;
+}
+
+.b{
+    width: 33.4%;
+    height: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.142);
+    padding: 0px 47px;
+}
+
+.qbox-img{
+    width: 100%;
+    height: 70px;
+    margin-top: 24px;
+}
+
+.qbox-head, .qbox-desc{
+    text-align: center;
+    margin-top: 13px;
+}
+
+.qbox-head{
+    font-weight: bold;
+    font-size: 21px;
+}
+
