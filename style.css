@@ -355,7 +355,7 @@
 START - SECTION 5 - CUSTOMER REVIEWS */
 
 .section5{
-    height: 200vh;
+    height: auto;
     background-color: #e73e444e;
     padding-top: 50px;
 }
@@ -427,3 +427,7 @@ START - SECTION 5 - CUSTOMER REVIEWS */
 /* END OF SECTION 5 */
 
 /* SECTION 6 - FOOTER - STARTS */
+
+.footer{
+    
+}
