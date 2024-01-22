@@ -353,3 +353,77 @@
 
 
 START - SECTION 5 - CUSTOMER REVIEWS */
+
+.section5{
+    height: 200vh;
+    background-color: #e73e444e;
+    padding-top: 50px;
+}
+
+.review-boxes{
+    margin-top: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 1180px;
+}
+
+.rbox{
+    width: 100%;
+    height: 367px;
+    background-color: white;
+    border-radius: 0px 160px 0px 160px;
+    /* padding-right: 130px; */
+    display:flex;
+}
+
+.quote{
+    height: 100%;
+    width: 10%;
+}
+
+.quote img{
+    width: 110px;
+    height: 70px;
+    margin-top: 17px;
+}
+
+
+/*DOUBT: WHY PADDING CONSIDERED??? WHY DIV CANNOT OVERFLOW IN THIS CASE??  IN WIDTH*/
+.review-content{
+    width: 80%;       
+    height: 100%;
+    padding: 60px 0px;
+}
+
+.review-txt{
+    font-size: 25px;
+    margin-bottom: 120px;
+}
+
+.review-name{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.quote2{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.quote2 img{
+    width: 80px; 
+    height: 70px;
+    margin-bottom: 10px
+}
+
+.special-review{
+    margin-bottom: 90px;
+}
+
+/* END OF SECTION 5 */
+
+/* SECTION 6 - FOOTER - STARTS */
