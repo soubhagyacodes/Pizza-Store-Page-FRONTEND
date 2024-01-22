@@ -91,6 +91,7 @@
     border: none;
     background-color: black;
     color: white;
+    font-size: 17px;
     width: 160px;
     height: 50px;
     border-radius: 5px;
@@ -120,3 +121,49 @@
     cursor:pointer
 }
 
+.section2{
+    height: 100vh;
+    padding: 20px 95px;
+    font-size: 37px;
+}
+
+.long-line{
+    height: 2.5px;
+    width: 88px;
+    background-color: #e73e43;
+}
+
+.dot{
+    height: 2.5px;
+    width: 2.5px;
+    background-color: #e73e43;
+}
+
+.design{
+    height: auto;
+    display: flex;
+    margin-top: 14px;
+}
+
+.line{
+    margin-right: 6px;
+}
+
+.offers{
+    margin: 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 50% 48%;
+    height: auto;
+    row-gap: 10px;
+}
+
+.offer-img{
+    height: 300px;
+    width: 577px;
+    cursor: pointer;
+}
+
+.offer-img:hover{
+    border: 1px solid black;
+}
