@@ -424,7 +424,39 @@ START - SECTION 5 - CUSTOMER REVIEWS */
     margin-bottom: 90px;
 }
 
+.lbox{
+    margin-bottom: 35px;
+}
+
 /* END OF SECTION 5 */
 
 /* SECTION 6 - FOOTER - STARTS */
 
+.footer{
+    height: 70vh;
+    background-color: black;
+    padding: 45px 100px;
+}
+
+.foot-grid{
+    display: grid;
+    grid-template-columns: 471px 400px 130px;
+    color: grey;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.foot-grid p{
+    margin-bottom: 6px;
+}
+
+.foot-grid p:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.head{
+    color: white;
+    margin-bottom: 6px;
+    font-size: 19px;
+}
